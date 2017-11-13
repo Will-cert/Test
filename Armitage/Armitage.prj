@@ -1,0 +1,42 @@
+%%Excelsior JET v11.0 project file
+
+-compilewithfixedheap-
+-genstackalloc+
+-genstacktrace-
+-global-
+-gui-
+-ignoreclassduplication+
+-ignorememberabsence+
+-inline+
+-multiapp-
+-splashgetfrommanifest-
+
+-apptype=Plain
+-classabsence=HANDLE
+-compilerheap=1744830464
+-cryptseed=3wZr9gt0bIe8yepTZSXa2ZWiI73gk60Y2qbvyeyaXgmVMMnPpW3SSeHD95J1qWPE
+-inlinelimit=100
+-inlinetolimit=1000
+-javacommandline:=java -cp Armitage-0.0.1-SNAPSHOT.jar Wintermute.Armitage.App
+-jetcplastpage:=PageCompile
+-jetrt=Desktop
+-jetvmprop=-Djet.gc.heaplimit:0 -Djet.stack.trace
+-main=Wintermute/Armitage/App
+-outputdir=../target
+-outputname=Armitage
+-saprofmode=JETCPONLY
+-saproftimeout=20
+-stacklimit=900000
+-versioninfocompanyname=CERTON
+-versioninfofiledescription=CertSAFE
+-versioninfolegalcopyright=Copyright \x00a9 2017 CERTON
+-versioninfoproductname=CertSAFE
+-versioninfoproductversion=1.0.0.0
+-lookup=*.jar=target
+
+
+!classpathentry Armitage-0.0.1-SNAPSHOT.jar
+  -pack=noncompiled
+  -protect=all
+  -optimize=all
+!end
